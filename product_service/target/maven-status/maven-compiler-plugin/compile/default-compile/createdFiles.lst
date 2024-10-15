@@ -1,0 +1,8 @@
+com/microservice/product_service/model/Product.class
+com/microservice/product_service/ProductServiceApplication.class
+com/microservice/product_service/payload/ProductDTO.class
+com/microservice/product_service/service/ProductServiceImpl.class
+com/microservice/product_service/service/ProductService.class
+com/microservice/product_service/controller/ProductController.class
+com/microservice/product_service/payload/ApiResponse.class
+com/microservice/product_service/repository/ProductRepository.class
