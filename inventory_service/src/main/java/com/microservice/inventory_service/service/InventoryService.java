@@ -1,7 +1,11 @@
 package com.microservice.inventory_service.service;
 
+import com.microservice.inventory_service.dto.InventoryResponse;
+
+import java.util.List;
+
 public interface InventoryService {
 
-	public boolean isInStock(String skvCode);
+	public List<InventoryResponse> isInStock(List<String> skvCode);
 	
 }
