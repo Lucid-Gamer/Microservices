@@ -1,8 +1,8 @@
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/ProductServiceApplication.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/controller/ProductController.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/model/Product.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/payload/ApiResponse.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/payload/ProductDTO.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/repository/ProductRepository.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/service/ProductService.java
-/home/credentek/All_Java_WS/Practice_WS/microservice_new/product_service/src/main/java/com/microservice/product_service/service/ProductServiceImpl.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\controller\ProductController.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\model\Product.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\payload\ApiResponse.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\payload\ProductDTO.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\ProductServiceApplication.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\repository\ProductRepository.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\service\ProductService.java
+D:\EclipseWorkspace\Microservices_New\microservice_new\product-service\src\main\java\com\microservice\product_service\service\ProductServiceImpl.java
