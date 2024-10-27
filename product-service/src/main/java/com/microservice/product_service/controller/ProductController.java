@@ -30,7 +30,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-	@GetMapping()
+	@GetMapping("/getAllProducts")
 	public ResponseEntity<ApiResponse> getAllProducts() {
 		List<ProductDTO> prodList = new ArrayList<ProductDTO>();
 		ApiResponse apiResponse;
@@ -49,7 +49,7 @@ public class ProductController {
 		}
 	}
 	
-	@PostMapping()
+	@PostMapping("/saveProduct")
 	public ResponseEntity<ApiResponse> saveProduct(@RequestBody ProductDTO productdto) {
 		ApiResponse apiResponse;
 		try {
@@ -65,7 +65,7 @@ public class ProductController {
 		}
 	}
 	
-	/*@PostMapping(path = "/deleteProductById")
+	@PostMapping(path = "/deleteProductById")
 	public ResponseEntity<ApiResponse> deleteProductById(@RequestBody ProductDTO productdto) {
 		ApiResponse apiResponse;
 		try {
@@ -85,5 +85,5 @@ public class ProductController {
 			apiResponse = new ApiResponse(null, "001", "Failed", false);
 			return new ResponseEntity<ApiResponse>(apiResponse,HttpStatus.INTERNAL_SERVER_ERROR);
 		}
-	}*/
+	}
 }
