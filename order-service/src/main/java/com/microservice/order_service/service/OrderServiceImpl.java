@@ -35,6 +35,7 @@ public class OrderServiceImpl implements OrderService{
 	public void placeOrder(OrderRequest orderRequest) {
 		Order order = new Order();
 		try {
+			logger.info("Inside place order in OrderServiceImpl:::::::::::::::::::::::::::::::::::::::::::::::");
 			order.setOrderNumber(UUID.randomUUID().toString());
 			order.setOrderLineItemList(
 					orderRequest.getOrderLineItems()
