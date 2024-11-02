@@ -4,6 +4,6 @@ import com.microservice.order_service.payload.OrderRequest;
 
 public interface OrderService {
 	
-	public void placeOrder(OrderRequest orderRequest);
+	public String placeOrder(OrderRequest orderRequest);
 
 }

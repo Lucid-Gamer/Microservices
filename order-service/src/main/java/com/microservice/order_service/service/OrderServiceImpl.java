@@ -32,9 +32,8 @@ public class OrderServiceImpl implements OrderService{
 	private final WebClient.Builder webClientBuilder;
 	
 	@Override
-	public void placeOrder(OrderRequest orderRequest) {
+	public String placeOrder(OrderRequest orderRequest) {
 		Order order = new Order();
-		try {
 			logger.info("Inside place order in OrderServiceImpl:::::::::::::::::::::::::::::::::::::::::::::::");
 			order.setOrderNumber(UUID.randomUUID().toString());
 			order.setOrderLineItemList(
@@ -60,13 +59,10 @@ public class OrderServiceImpl implements OrderService{
 
 			if (allPrduuctsInStock) {
 				orderRepository.save(order);
+				return "Order Placed Successfully";
 			} else {
 				throw new IllegalArgumentException("Product is not in stock. Please try again later");
 			}
-		} catch (Exception e) {
-			logger.info(e.getMessage());
-			e.printStackTrace();
-		}
 	}
 	
 	public OrderLineItem mapFromDTO(OrderLineItemDTO orderLineItemDTO) {
